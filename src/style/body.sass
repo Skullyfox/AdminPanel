@@ -1,0 +1,20 @@
+*
+    box-sizing: border-box
+body
+    overflow-x: hidden
+    margin: 0
+    padding: 0
+
+    background-color: #03a9f4
+    font-family: "PTsNarrow"
+
+    .app-container
+        width: calc(100% + 30vw)
+        display: grid
+        grid-template-columns: 30vw 1fr
+        height: 100vh
+        transform: translateX(-30vw)
+        transition: all 1.5s
+
+    .app-container.toggled
+        transform: none;
