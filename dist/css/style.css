@@ -43,7 +43,7 @@ body {
       align-items: center;
       height: 20vh; }
       .sidebar ul li:hover {
-        background-color: #67daff;
+        background-color: #666;
         color: #ffffff;
         transition: all 0.3s; }
   .sidebar hr {
