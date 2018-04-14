@@ -5,15 +5,15 @@ body
     margin: 0
     padding: 0
 
-    background-color: #03a9f4
+    background: linear-gradient(-45deg, $secondary-l 0%, $primary-l 100%)
     font-family: "PTsNarrow"
 
     .app-container
-        width: calc(100% + 30vw)
+        width: calc(100% + 18vw)
         display: grid
-        grid-template-columns: 30vw 1fr
+        grid-template-columns: 18vw 1fr
         height: 100vh
-        transform: translateX(-30vw)
+        transform: translateX(-18vw)
         transition: all 1.5s
 
     .app-container.toggled
