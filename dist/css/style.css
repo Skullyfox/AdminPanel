@@ -94,11 +94,11 @@ main {
       main .toggleSide:hover .middlebar {
         background-color: #ffffff; }
       main .toggleSide:hover {
-        -webkit-transform: rotateY(360deg);
-                transform: rotateY(360deg);
-        transition: -webkit-transform 1s;
-        transition: transform 1s;
-        transition: transform 1s, -webkit-transform 1s; }
+        -webkit-transform: rotateY(180deg);
+                transform: rotateY(180deg);
+        transition: -webkit-transform 0.8s;
+        transition: transform 0.8s;
+        transition: transform 0.8s, -webkit-transform 0.8s; }
       main .toggleSide:hover:after {
         background-color: #666;
         -webkit-transform: rotateY(-360deg);
