@@ -40,3 +40,21 @@ main
                 background-color: #666
                 transform: rotateY(-360deg)
                 transition: transform 1.5s
+    .container
+        position: relative
+        background-color: $accent-l
+        max-width: 100%
+        height: 90%
+        margin: 20px 0
+        padding: 2vw
+
+        &>*:not([class='current'])
+            display: none
+
+        &>[class='current']
+            text-align: center
+            color: $accent-l
+            padding: 1vw
+            height: 100%
+            width: 100%
+            background-color: $accent-d
